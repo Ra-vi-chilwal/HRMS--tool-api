@@ -1,0 +1,306 @@
+
+/* --- salary slip css start  ----  */
+/* .inv-logo {
+    height: auto;
+    max-height: 100px;
+    width: auto;
+    margin: 0 0 20px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.invoice-details {
+    float: right;
+    text-align: right;
+}
+.payslip-title {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.float-end {
+    float: right!important;
+}
+ul.list-unstyled li {
+    font-weight: 600;
+    font-size: 14px;
+}
+.slip-table td {
+    font-weight: 600;
+} */
+/* .react-table .rdt_TableHeadRow {
+    background-color: #07659a36;
+    font-size: 13px;
+    font-weight: 700;
+} */
+
+/* ---  punch in css start  --  */
+.border-primary{
+    border-bottom: 5px solid #0559b3!important;
+}
+
+.punch-det {
+    background-color: #f9f9f9;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+}
+.punch-det h6 {
+    line-height: 20px;
+    margin: 0;
+}
+.punch-det p {
+    color: #727272;
+    font-size: 14px;
+    margin: 0;
+}
+.punch-info {
+    margin: 0 0 20px;
+}
+.punch-info .punch-hours {
+    background-color: #f9f9f9;
+    border: 5px solid #e3e3e3;
+    font-size: 18px;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    line-height: 120px;
+    text-align: center;
+}
+.punch-btn-section {
+    text-align: center;
+    margin: 0 0 20px;
+}
+.punch-btn-section .punch-btn {
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 100%;
+    padding: 8px 40px;
+    border-radius: 50px;
+}
+
+.stats-box {
+    background-color: #f9f9f9;
+    border: 1px solid #e3e3e3;
+    margin: 0 0 15px;
+    padding: 5px;
+}
+.stats-box p {
+    margin: 0;
+    font-size: 12px;
+}
+/* ----  Statistics css start  --- */
+.stats-info {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin: 0 0 5px;
+    padding: 15px;
+}
+.stats-info p {
+    font-size: 12px;
+    margin: 0 0 5px;
+}
+.home-progress .progress {
+    height: 4px;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    display: flex;
+}
+/* .progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #0d6efd;
+    transition: width .6s ease;
+} */
+
+/* ---  today activity css start   -----  */
+
+.res-activity-list {
+    height: 350px;
+    list-style-type: none;
+    overflow-y: auto;
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 30px;
+}
+.res-activity-list li {
+    margin: 0 0 15px;
+    position: relative;
+}
+.res-activity-list li:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 2px solid #07659a;
+    z-index: 2;
+    background: #ffffff;
+    border-radius: 100%;
+    margin: 0 0 0 15px;
+    position: absolute;
+    top: 0;
+    left: -45px;
+}
+.res-activity-list:after {
+    content: "";
+    border: 1px solid #e5e5e5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 3.8px;
+}
+.res-activity-list p{
+    font-size: 12px;
+}
+.res-activity-time {
+    color: #bbb;
+    font-size: 12px;
+}
+.res-activity-time i{
+    padding-right: 4px;
+}
+/* ---  scrollbar css start   -----  */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#07659a; 
+    border-radius: 10px;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #002335; 
+  }
+
+
+
+
+/* --- New salary slip css start  --- */
+
+  .cntr{
+    text-align: center;
+}
+.salary-slip .myBackground {
+    padding-top: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    height: 40px;
+  }
+  .salary-slip .myAlign {
+    /* text-align: left; */
+    border-right: 1px solid #ccc;
+  }
+.salary-slip .companyName {
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+  .salary-slip {
+    margin: 15px;
+  }
+  .salary-slip .empDetail {
+    width: 100%;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  .salary-slip .border-center {
+    text-align: center;
+  }
+  .salary-slip .border-center th, .salary-slip .border-center td {
+    border: 1px solid #ccc;
+  }
+  .salary-slip th, .salary-slip td {
+    padding-left: 6px;
+  }
+  tr.title-slip th {
+    padding: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+/* salary add css start  */
+.slryfile {
+    display: flex;
+    padding: 40px 0;
+    flex-direction: unset;
+}
+.salary-mrgn {
+    margin-top: 7%;
+}
+.slryfile button {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.slryfile .form-control {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.statusbtn {
+    border-radius: 50px;
+    padding: 0.35rem 0.5rem;
+    height: auto;
+    font-size: 12px;
+}
+/* ellips dropdown css start  */
+
+.edt a {
+    font-size: 20px;
+}
+.edt {
+    text-align: right;
+}
+.edt1 a i {
+    padding-right: 5px;
+}
+.edt1 a {
+    font-size: 13px;
+}
+.padding{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 12px;
+   
+}
+.jfrgbA {
+    padding: 0px !important;
+}
+.fa-trash-o:before {
+    content: "\f014";
+    color: aliceblue !important;
+}
+.bnAwAJ {
+    font-size: 12px !important;
+
+    font-weight: 400 !important;
+}
+.cCKpPz {
+ 
+    font-size: 12px !important;
+    font-weight: 400 !important;
+}
+.card-header{
+    background: #002e5b;
+}

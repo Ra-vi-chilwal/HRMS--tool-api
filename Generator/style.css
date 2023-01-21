@@ -1,0 +1,50 @@
+
+  .cntr{
+    text-align: center;
+}
+.salary-slip .myBackground {
+    padding-top: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+    height: 40px;
+  }
+  .salary-slip .myAlign {
+    /* text-align: left; */
+    border-right: 1px solid #ccc;
+  }
+.salary-slip .companyName {
+    text-align: right;
+    font-size: 22px;
+
+    font-weight: bold;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+  .salary-slip {
+  
+    margin: 15px;
+  }
+  .salary-slip .empDetail {
+    width: 100%;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  .salary-slip .border-center {
+    text-align: center;
+  }
+  .salary-slip .border-center th, .salary-slip .border-center td {
+    border: 1px solid #ccc;
+  }
+  .salary-slip th, .salary-slip td {
+    padding-left: 6px;
+  }
+  tr.title-slip th {
+    
+    padding: 12px;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}

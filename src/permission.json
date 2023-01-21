@@ -1,0 +1,34 @@
+[
+   
+    {
+    
+        "role": "HR",
+        "slug": "hr"
+
+
+    },
+    {
+
+        " permission": [{
+    
+        }],
+        "role": "Employee",
+        "slug": "employee"
+
+
+    },
+    {
+
+      
+        " permission": [{
+            " label": "Attendance",
+            "value": "attendance"
+         
+        }],
+        "role": "Admin",
+        "slug": "admin"
+
+
+    }
+]
+
